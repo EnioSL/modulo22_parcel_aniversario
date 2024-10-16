@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -38,18 +39,31 @@
         </div>
     </header>
 
-    <section class="event">
-        <div class="container">
+    <section class="event event--especificacoes">
+        <div class="container" data-aos="zoom-out">
             <div class="event__details">
-                <h2 class="event__details__title">Front-end</h2>
+                <h2 class="event__details__title">Sobre a casa de eventos</h2>
                 <p class="event__details_description">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dicta, delectus perspiciatis quos, quibusdam officia unde doloribus soluta dolores eos iste aspernatur earum nostrum eius, facilis in dignissimos quia eveniet.
                 </p>
             </div>
             <img class="event__image" src="./images/dog_1-transformed.png" alt="Bulldog">
         </div>
-
     </section>
+
+    <section class="event event--local event--image--left">
+        <div class="container"  data-aos="zoom-out">
+            <div class="event__details">
+                <h2 class="event__details__title">Como chegar</h2>
+                <p class="event__details_description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dicta, delectus perspiciatis quos, quibusdam officia unde doloribus soluta dolores eos iste aspernatur earum nostrum eius, facilis in dignissimos quia eveniet.
+                </p>
+            </div>
+            <img class="event__image" src="./images/dog_1-transformed.png" alt="Bulldog">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
